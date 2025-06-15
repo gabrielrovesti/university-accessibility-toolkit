@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{accsupp}
+\usepackage{pdfcomment}
+
+% Template formula accessibile
+\newcommand{\altmath}[2]{%
+  \BeginAccSupp{ActualText=#2}%
+  #1%
+  \EndAccSupp{}%
+}
+
+% Esempio uso:
+\altmath{$x^2 + 3x - 4 = 0$}{x al quadrato più 3x meno 4 uguale zero}
