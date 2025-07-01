@@ -13,59 +13,86 @@
 
 ## 📁 Contenuti Repository
 
-### 📊 Presentazione e Materiali Base
-- **`2. Presentazione_nel_video_Alessandro Albano.pdf/.pptx`** - Seminario completo accessibilità
-  - Basato sul lavoro del consulente Alessandro Albano
-  - Slide teoriche e best practices
-  - Reference per docenti e staff tecnico
-
-- **`1. Link video presentazione consulente Alessandro Albano.docx`** - Collegamenti video originali
-
+### 📊 Presentazione e Materiali Base (Root)
+- **`1a. Link video formazione Gabriel Rovesti.docx`** - Collegamenti video formativi aggiornati
+- **`2. Presentazione_Gabriel_Rovesti.pdf`** - Manuale operativo completo (PDF, 52 slide)
+  - Test accessibilità immediati
+  - Disabilità visive e DSA: caratteristiche e soluzioni
+  - Tecnologie assistive (NVDA, JAWS, lettori DSA)
+  - Linee guida pratiche: leggibilità, struttura, tabelle, colori
+  - Gestione immagini e testo alternativo
+  - Formule matematiche e notazioni chimiche accessibili
+  - Raccomandazioni specifiche per discipline universitarie
+  - Configurazioni Moodle per didattica inclusiva
+- **`2. Presentazione_Gabriel_Rovesti.pptx`** - Manuale operativo completo (PowerPoint)
 - **`4. Linee guida prove di ammissione accessibili.pdf`** - Documento ufficiale UNIPD
+  - Compliance Legge Stanca e WCAG 2.0/2.1
   - Guidelines complete per prove accessibili
   - Esempi pratici e standard di riferimento
   - Procedure operative dettagliate
 
-### 🔍 Esempi Pratici (20 Casi Reali)
+### 🔗 Riferimenti Web e Consulenze
+**Cartella: `0. Riferimenti pagine web consulenze/`**
+- **`Formazione e consulenza per costruire contesti inclusivi - UniPD Link.pdf`** - Pagina ufficiale UNIPD servizi
+- **`Riferimenti.png`** - Screenshot riferimenti web accessibilità
+
+### 🔍 Esempi Pratici (22 Casi Reali)
 **Cartella: `3. Esempi di item accessibili versus inaccessibili/`**
 
-#### Tipologia Contenuti:
-- **`01-02_esempio_testo_non_corretto/corretto.pdf`** - Formattazione e leggibilità
-- **`03-04_esempio_paragrafi/intestazioni_corretto.pdf`** - Struttura documento
-- **`05-06_esempio_colore_non_corretto/corretto.pdf`** - Uso colore e contrasto
+#### Esempi Formattazione e Struttura:
+- **`01_esempio_testo_non_corretto.pdf`** - Formattazione problematica
+- **`02_esempio_testo_corretto.pdf`** - Formattazione accessibile
+- **`03_esempio_paragrafi_corretto.pdf`** - Struttura paragrafi ottimale
+- **`04_esempio_intestazioni_corretto.pdf`** - Gerarchia heading corretta
+
+#### Esempi Colore e Contrasto:
+- **`05_esempio_colore_non_corretto.pdf`** - Problemi contrasto colori
+- **`05_esempio_conto_economico.pdf`** - Tabelle economiche accessibili
+- **`06_esempio_colore_corretto.pdf`** - Uso colore conforme WCAG
+
+#### Esempi Contenuti Complessi:
 - **`07_esempio_brano_con_tabella.pdf`** - Problematiche tabelle complesse
 - **`08_esempio_decifrare.pdf`** - Sequenze e completamenti
 - **`09_esempio_figura_numero_mancante.pdf`** - Immagini senza alt-text
-- **`10-11_esempio_retta/parabola.pdf`** - Grafici matematici
+
+#### Esempi Discipline STEM:
+- **`10_esempio_retta.pdf`** - Grafici matematici lineari
+- **`11_esempio_parabola.pdf`** - Grafici matematici parabolici
 - **`12_esempio_molecola.pdf`** - Notazioni chimiche
-- **`13_esempio_bifore-trifore.pdf`** - Contenuti architettura/arte
-- **`14_esempio_numeri_lettere.pdf`** - Sequenze alfanumeriche problematiche
 - **`15_esempio_mat1.pdf`** - Matematica inaccessibile
 - **`16_esempio_reazione_chimica.pdf`** - Formule chimiche
-- **`17_ESEMPIO_indentazione.pdf`** - Codice e indentazione
 - **`18_esempio_mat_latex.pdf`** - Matematica accessibile con LaTeX
 
-#### Contenuti Avanzati:
+#### Esempi Discipline Umanistiche:
+- **`13_esempio_bifore-trifore.pdf`** - Contenuti architettura/arte
+- **`14_esempio_numeri_lettere.pdf`** - Sequenze alfanumeriche problematiche
+
+#### Esempi Informatica:
+- **`17_ESEMPIO_indentazione.pdf`** - Codice e indentazione
+
+#### Contenuti Avanzati e Template:
 - **`19_esempio_scansione_accessibile.pdf`** - Workflow OCR strutturato
 - **`20_LaTeX_accessible_template.tex`** - Template LaTeX con pacchetti accessibilità
 - **`Esempi Materiale Accessibile vs Inaccessibile - Collezione per Demo.pdf`** - Guida completa
 
 ### 📝 Template Ufficiali UNIPD 2025
-**Cartella: `5. Istruzioni template prove di accesso/`**
-
-#### Template Pronti:
-- **`02.3alternative.docx`** - Template 3 opzioni di risposta
-- **`02.4alternative.docx`** - Template 4 opzioni di risposta  
-- **`02.5alternative.docx`** - Template 5 opzioni di risposta
-- **`04 domande_esempio.docx`** - Esempi compilati
-- **`03 istruzioni.docx`** - Template istruzioni candidati
+**Cartella: `5. Istruzioni e template prove di accesso/`**
 
 #### Documentazione Ufficiale:
-- **`Specifiche predisposizione prove di accesso 2025.docx/.pdf`** - Specifiche complete UNIPD
+- **`Specifiche predisposizione prove di accesso 2025.docx`** - Specifiche complete UNIPD (Word)
+- **`Specifiche predisposizione prove di accesso 2025.pdf`** - Specifiche complete UNIPD (PDF)
   - **Scadenza: 14 luglio 2025 ore 14:00**
   - Procedure consegna e validazione
   - Link formazione dott. Bernareggi
   - Contatti: prove.accesso@unipd.it
+
+#### Template Pronti:
+**Sottocartella: `Template documenti prove/`**
+- **`02.3alternative.docx`** - Template 3 opzioni di risposta
+- **`02.4alternative.docx`** - Template 4 opzioni di risposta  
+- **`02.5alternative.docx`** - Template 5 opzioni di risposta
+- **`03 istruzioni.docx`** - Template istruzioni candidati
+- **`04 domande_esempio.docx`** - Esempi compilati
 
 ### 🛠️ Strumenti Software
 **Cartella: `6. Strumenti ed estensioni accessibili/`**
@@ -74,11 +101,20 @@
   - Browser extensions (WAVE, Color Oracle, NoCoffee)
   - Contrast checkers e validation tools
   - Emergency protocols e backup strategies
+- **`Presentazione Accessibile .pptx`** - Template PowerPoint accessibile pronto all'uso
+
+### 📚 Archivio Formazione Precedente
+**Cartella: `7. Archivio formazione precedente/`**
+- **`1.a. Link video presentazione consulente Alessandro Albano.docx`** - Collegamenti video originali
+- **`1.b Presentazione_nel_video_Alessandro Albano.pdf`** - Materiale base consulente (PDF)
+- **`1.b. Presentazione_nel_video_Alessandro Albano.pptx`** - Materiale base consulente (PowerPoint)
+- **`20220627_Commenti video prove accessibili.docx`** - Commenti storici formazione
+- **`Presentazione_dott. Bernareggi.pdf`** - Presentazione formazione Bernareggi
 
 ## 🎯 Caratteristiche Uniche
 
 ### ✅ Compliance Normativa Completa
-- **WCAG 2.1 Livello AA** - 20 esempi pratici conformi
+- **WCAG 2.1 Livello AA** - 22 esempi pratici conformi
 - **European Accessibility Act 2025** - Ready per giugno 2025
 - **Template UNIPD ufficiali** - Validati dall'ateneo
 - **Formazione certificata** - Basata su dott. Bernareggi expertise
@@ -89,19 +125,21 @@
 - **Fisica** - Grafici e diagrammi descritti verbalmente
 - **Informatica** - Codice senza dipendenza indentazione
 - **Architettura/Arte** - Elementi visivi con alt-text efficace
+- **Economia** - Tabelle finanziarie accessibili
 
 ### 🔧 Workflow Operativo
 - **30-second rule** - Metrica verifica rapida
-- **Before/after examples** - 20 confronti diretti
+- **Before/after examples** - 22 confronti diretti
 - **Template system** - 3/4/5 alternative pre-configurate
 - **Testing protocol** - NVDA + validation tools
+- **Manuale operativo** - 52 slide con esempi pratici per ogni disciplina
 
 ## 🏛️ Utilizzo per Tipologia Utente
 
 ### 👨‍🏫 Docenti e Responsabili Prove
 ```
 1. Consulta: Linee guida UNIPD + Esempi disciplina specifica
-2. Usa: Template .docx corrispondenti (3/4/5 alternative)
+2. Usa: Template .docx dalla sottocartella Template documenti prove
 3. Testa: Con NVDA seguendo workflow strumenti
 4. Consegna: Entro 14 luglio 2025 a prove.accesso@unipd.it
 ```
@@ -133,8 +171,8 @@
 ## 📊 Impatto e Copertura
 
 ### 📈 Statistiche Repository
-- **20 esempi pratici** - Copertura disciplinare completa
-- **6 template ufficiali** - Tutti i format UNIPD 2025
+- **22 esempi pratici** - Copertura disciplinare completa
+- **5 template ufficiali** - Tutti i format UNIPD 2025
 - **1 workflow completo** - Setup→Test→Deploy
 - **100% compliance** - WCAG 2.1 AA + EAA 2025
 
@@ -143,6 +181,7 @@
 - **Medicina/Professioni Sanitarie** - Esempi specifici inclusi
 - **Architettura** - Contenuti visivi accessibili
 - **Ingegneria** - Matematica e codice accessibili
+- **Economia** - Tabelle finanziarie accessibili
 
 ## 🤝 Credits e Partnership
 
@@ -199,6 +238,6 @@ Disponibili per:
 
 *Sviluppato con ❤️ per l'inclusione accademica*
 
-**📊 20 Esempi • 📝 6 Template • 🛠️ 1 Workflow Completo**
+**📊 22 Esempi • 📝 5 Template • 🛠️ 1 Workflow Completo**
 
 </div>
